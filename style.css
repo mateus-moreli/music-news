@@ -1,0 +1,155 @@
+* {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #0B132B;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.date{
+    padding-left: 10px;
+    padding-bottom:15px;
+    padding-top:15px;
+}
+
+.title{
+    padding-left: 10px;
+    padding-bottom:15px;
+}
+
+p{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    color:#eaeaea;
+}
+
+p a{
+    text-decoration: none;
+    color: inherit;
+    transition: font-size 0.2s;
+}
+
+p a:hover{
+    font-size: 120%;
+}
+
+h2{
+    padding: 20px;
+    color: #eaeaea;
+}
+
+#gridh{
+    display: grid;
+    width: 1300px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+
+#gridh1 img{
+    padding-top: 20px;
+    padding-right: 650px;
+    padding-left: -200px;
+    width: 276px;
+    height: 276px;
+}
+
+#gridh2 ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#gridh2 li a{
+    color:#8963BA;
+    transition: font-size 0.3s;
+    transition: transform 0.3s;
+}
+
+#gridh2 li a:hover{
+    font-size: 108%;
+    transform: translateX(50px);
+}
+
+#gridh2 li{
+    margin-right: 20px;
+    
+}
+
+#gridh2 li:last-child{
+    margin-right: 0;
+}
+
+#grid1{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 270px 270px;
+}
+
+#grid11 img, #grid13 img{
+    width: 625px;
+    height: 470px;
+    z-index: -1;
+}
+
+#grid12 p, #grid14 p{
+    width: 77%;
+    background-color:rgba(14, 13, 13, 0.6); 
+}
+
+
+#grid2 {
+    display: grid;
+    width:100%;
+    grid-template-columns: 325px 325px 325px 325px;
+    gap: 20px;
+}
+
+#grid21 img, #grid23 img{
+    width: 304px;
+    height: 228px;
+    padding: 5px;
+}
+
+#grid22, #grid24{
+    text-align: left;
+
+}
+
+#grid22 {
+    padding-right: 15px ;
+}
+
+#grid3 {
+    display: grid;
+    width:100%;
+    grid-template-columns: 325px 325px 325px 325px;
+    grid-row: 300px 300px 300px 300px;
+    gap:20px
+}   
+
+#grid31 img, #grid32 img, #grid33 img, #grid34 img, #grid39 img, #grid310 img, #grid311 img, #grid312 img{
+    padding-top: 20px;
+    width: 304px;      
+    height: 228px;
+    
+}
+
+#grid35, #grid36, #grid37, #grid38, #grid313, #grid314, #grid315, #grid316 {
+    padding-top: 10px;
+    text-align: left;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+}
